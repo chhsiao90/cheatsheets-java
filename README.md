@@ -14,8 +14,10 @@ cheat-ext upgrade chhsiao90/cheatsheets-java
 
 ## custom tables
 - java
+- jcmd
 - jmap
 - jps
 - jstack
+- jstat
 - keytool
 - mvn
