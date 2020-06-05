@@ -1,15 +1,21 @@
 # cheatsheets
-cheatsheets for [cheat](https://github.com/chrisallenlane/cheat)
+cheatsheets for [cheat](https://github.com/cheat/cheat)
 
 ## Installation
+
+### Clone repository
 ```
-[sudo] pip install cheat-ext
-cheat-ext install chhsiao90/cheatsheets-java
+git clone git@github.com:chhsiao90/cheatsheets-java.git ~/.cheat/cheatsheets/cheatsheets-java
 ```
 
-## Upgrade
+### Configure cheat conf.yml
+
 ```
-cheat-ext upgrade chhsiao90/cheatsheets-java
+# ~/.config/cheat/conf.yml
+- name: java
+  path: ~/.cheat/cheatsheets/cheatsheets-java
+  tags: [ java ]
+  readonly: true
 ```
 
 ## custom tables
